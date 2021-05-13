@@ -8,9 +8,8 @@ import * as React from 'react'
 import {
   Text
 } from 'react-native'
-import { TextProps } from './PropsType'
 
-const _Text: React.SFC<TextProps> = ({
+const _Text = ({
   style,
   children,
   selectable,
