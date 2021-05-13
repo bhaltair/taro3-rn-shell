@@ -1,10 +1,3 @@
-
-> 目前支持0.60以上的RN版本, 以及 Taro3 (支持 Taro 3.2.0-beta.4及以上版本，以下版本请使用 0.63.2 版本)
-
-Taro 2 对应分支：https://github.com/NervJS/taro-native-shell/tree/0.59.9
-
-Taro 1 对应分支：https://github.com/NervJS/taro-native-shell/tree/0.55.4
-
 # taro-native-shell
 Taro 原生 React Native 壳子，和 React Native init 的工程的区别是，移除了 index.js，集成了 [react-native-unimodules](https://github.com/unimodules/react-native-unimodules)。
 
@@ -33,7 +26,7 @@ Taro 原生 React Native 壳子，和 React Native init 的工程的区别是，
 
 参考：https://github.com/NervJS/taro/issues/3572
 
-## 启动代码编译及 Metro Bundler Server
+## Metro Bundler Server
 
 运行 `taro dev:rn --port 8081` 命令，Taro 将会开始启动本地Metro Server：
 
@@ -72,6 +65,7 @@ React-Native Dev server is running on port: 8081
 
 > Note：进入下一步之前请确保 Metro Bundler Server 正常启动，即浏览器能正常访问访问 jsbundle。
 
+## 启动代码编译
 
 ### 启动应用
 如果上一步的编译和 Metro Bundler Server 启动没问题，接下来就可以启动应用了。
